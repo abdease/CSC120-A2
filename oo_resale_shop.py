@@ -87,17 +87,12 @@ def main():
     buying.buy()
     check_inventory = ResaleShop(1, 1500)
     check_inventory.print_inventory()
-    #updateprice = ResaleShop(1, 1500)
-   # updateprice.update_price()
+    updateprice = ResaleShop(1, 1500)
+    updateprice.update_price()
     refurb = ResaleShop(1, 1500)
     refurb.refurbish()
-
-    # computer2 = Computer("2019 MacBook Pro", "Intel", 256, 16, "High Sierra", 2019, 1000)
-    # computer2.computer()
-    # purchase = ResaleShop(2, 400)
-    # purchase.buy()
-    # inventory = ResaleShop(2, 400)
-    # inventory.print_inventory()
+    inventory = ResaleShop(1, 1500)
+    inventory.print_inventory()
 
 
     
